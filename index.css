@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
+.header
 .container {
     display: flex;
     flex-direction: column;
@@ -41,4 +42,23 @@
 }
 .home-btn:hover {
     background-color: red;
+}
+.header, .assignments {
+    width: 80%;
+    margin: 0 20%;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.github {
+    color: #ee4056;
+}
+.github > a {
+    color: black;
+    font-weight: bold;
 }
