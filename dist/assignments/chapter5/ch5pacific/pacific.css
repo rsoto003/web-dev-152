@@ -8,22 +8,46 @@ body {
 header {
     background-color: #003;
     color: #fff;
+    background-image: url("images/sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 400%;
+    text-indent: 1em;
 }
 
 nav {
     background-color: #90c7e3;
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+}
+h1, h2, h3, footer {
+    font-family: Georgia, "Times New Roman", serif;
 }
 h1 {
     margin-bottom: 0;
 }
 h2 {
-    background-color: #39c;
+    /* background-color: #39c; */
+}
+ul {
+    /* list-style-image: url("images/marker.gif"); */
 }
 
 dt {
     color: #003;
 }
-
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+}
 .resort {
     color: #5c7fa3;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
 }
